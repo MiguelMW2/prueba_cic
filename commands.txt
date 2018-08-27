@@ -1,0 +1,90 @@
+    1  clear
+    2  hostnamectl 
+    3  clear
+    4  sudo ls
+    5  cd ..
+    6  exit
+    7  pwd
+    8  ls
+    9  clear
+   10  sudo ls
+   11  exit
+   12  clear
+   13  git config --global user.name "MiguelMW2"
+   14  git config --global user.email "miguelangelsonarc@hotmail.com"
+   15  git config --list
+   16  ls
+   17  la
+   18  ls -la
+   19  mkdir
+   20  mkdir prueba
+   21  cd prueba
+   22  ls
+   23  git init
+   24  ckear
+   25  clear
+   26  ls
+   27  ls -la
+   28  git remote add origin https://github.com/MiguelMW2/prueba.git
+   29  nano README.md
+   30  ls
+   31  nano README.md
+   32  git add README.md
+   33  git commit -m "commit"
+   34  ls
+   35  rm -r .git/
+   36  rm -rf .git/
+   37  clear
+   38  ls
+   39  git remote add origin https://github.com/MiguelMW2/prueba_cic.git
+   40  git init
+   41  git remote add origin https://github.com/MiguelMW2/prueba_cic.git
+   42  git add README.md
+   43  git commit -m "commit"
+   44  git push -u origin master
+   45  clear
+   46  git push -u origin master
+   47  ls
+   48  cd
+   49  ls
+   50  cd /vagrant/
+   51  ls
+   52  clear
+   53  cd
+   54  ls
+   55  cd /
+   56  ls
+   57  clear
+   58  cd
+   59  clear
+   60  cd /etc/motd
+   61  cd /etc
+   62  vi motd
+   63  sudo vi motd
+   64  exit
+   65  sudo vi motd
+   66  sudo vi /etc/motd
+   67  clear
+   68  ls
+   69  ll
+   70  exit
+   71  exity
+   72  exit
+   73  clear
+   74  hostnamectl 
+   75  sudo vi /etc/motd
+   76  clear
+   77  ls
+   78  clear
+   79  Ãls 
+   80  cd ..
+   81  ls
+   82  cd
+   83  ls
+   84  cd prueba/
+   85  ls
+   86  clear
+   87  git branch -a
+   88  git checkout -b commands
+   89  git branch -a
+   90  history >> commands.txt
